@@ -53,7 +53,7 @@ pchain:
     contact:
       name: wujk
       url: https://github.com/wujack
-      email: wujk@qq.com
+      email: wujk@126.com
     base-package: com.pchain.rbac.admin.controller
     base-path: /**
     exclude-path: /error
