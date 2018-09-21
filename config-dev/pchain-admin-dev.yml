@@ -1,0 +1,24 @@
+# 服务治理service配置
+
+pchain:
+  # 服务治理配置
+  admin:
+    registry:
+      # pchain服务治理中刷新服务实例状态的间隔ms,默认30000ms
+      status-refresh-interval-in-mills: 30000
+  # swagger2配置
+  swagger:
+    enabled: true
+    title: Pchain服务治理
+    description: Pchain服务治理 RestFull Api
+    version: 1.0.1-SNAPSHOT
+    license: Apache License, Version 2.0
+    license-url: https://www.apache.org/licenses/LICENSE-2.0.html
+    terms-of-service-url: https://github.com/wujack/Pchain
+    contact:
+      name: wujk
+      url: https://github.com/wujack
+      email: wujk@qq.com
+    base-package: com.pchain.admin.web
+    base-path: /**
+    exclude-path: /error
