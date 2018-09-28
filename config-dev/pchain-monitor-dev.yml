@@ -10,4 +10,4 @@ turbine:
       #PCHAIN-ADMIN,PCHAIN-AUTH-SERVER,PCHAIN-CONFIG,PCHAIN-GATEWAY,PCHAIN-MONITOR,PCHAIN-RBAC-SERVICE,PCHAIN-REGISTRY
       clusterConfig: default
   # 所有的服务都用一个default集群名称
-  cluster-name-expression: new String("default")
+  cluster-name-expression: default
