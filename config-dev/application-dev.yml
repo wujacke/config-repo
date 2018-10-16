@@ -14,8 +14,8 @@ base:
 
 #token 失效时间 单位：分钟
 access-token:
-  validityseconds: 5
-  refreshvalidityseconds: 60
+  validityseconds: 300
+  refreshvalidityseconds: 300
 
 server:
   tomcat:
