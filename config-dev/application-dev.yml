@@ -77,7 +77,7 @@ hystrix:
 ribbon:
   eager-load:
     enabled: true
-    clients: pchain-admin,pchain-rbac-service,pchain-auth-server
+    clients: pchain-admin,pchain-usc-service,pchain-auth-server
   # ribbon请求连接的超时时间 默认2秒 ms
   ConnectTimeout: 5000
   # 请求处理的超时时间 默认5秒 ms
