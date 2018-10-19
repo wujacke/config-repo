@@ -1,0 +1,18 @@
+# jpa配置 数据源配置
+spring:
+  datasource:
+    url: ${base.mysql.url}/pchain?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: pchain123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 下面为连接池的补充设置，应用到上面所有数据源中
+    # 初始化大小，最小，最大
+    initialSize: 1
+    minIdle: 3
+    maxActive: 20
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
