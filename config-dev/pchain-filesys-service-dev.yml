@@ -29,7 +29,12 @@ spring:
     maxActive: 20
     # 配置获取连接等待超时的时间
     maxWait: 60000
-
+  #redis配置
+  redis:
+    host: ${base.redis.host}
+    port: ${base.redis.port}
+    password: ${base.redis.password}
+    database: ${base.redis.database}
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
   typeAliasesPackage: com.pchain.filesys.entity
