@@ -8,7 +8,7 @@ spring:
       WRITE_EMPTY_JSON_ARRAYS: false
       WRITE_NULL_MAP_VALUES: false
       default-property-inclusion: non_empty
-	
+
   http:
     multipart:
       enabled: true
