@@ -1,19 +1,19 @@
 spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
-	deserialization:
-	  FAIL_ON_UNKNOWN_PROPERTIES: false
-	serialization:
-	  FAIL_ON_EMPTY_BEANS: false
-	  WRITE_EMPTY_JSON_ARRAYS: false
-	  WRITE_NULL_MAP_VALUES: false
-	default-property-inclusion: non_empty
+    deserialization:
+      FAIL_ON_UNKNOWN_PROPERTIES: false
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+      WRITE_EMPTY_JSON_ARRAYS: false
+      WRITE_NULL_MAP_VALUES: false
+      default-property-inclusion: non_empty
 	
   http:
     multipart:
-	  enabled: true
-	  max-file-size: 10MB
-	  max-request-size: 500MB
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 500MB
 # jpa配置 数据源配置
 
   datasource:
