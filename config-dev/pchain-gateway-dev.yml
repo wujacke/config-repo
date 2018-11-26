@@ -15,7 +15,7 @@ zuul:
 
 security:
   encode:
-    key: '1234567887654321' #必须16位
+    key: 'Pchain2018/>!{3}' #必须16位
   validate:
     code: false
     preview: false
