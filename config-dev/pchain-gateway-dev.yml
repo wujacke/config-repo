@@ -32,10 +32,10 @@ ignore:
   urls:
     - /mobile/**
     - /auth/**
-    - /admin/code/*
-    - /admin/smsCode/*
-    - /admin/user/info
-    - /admin/menu/userMenu
+    - /admin/v1/code/*
+    - /admin/v1/smsCode/*
+    - /admin/v1/user/info
+    - /admin/v1/menu/userMenu
     - /swagger-resources/**
     - /swagger-ui.html
     - /*/v2/api-docs
